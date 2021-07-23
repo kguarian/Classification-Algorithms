@@ -1,0 +1,14 @@
+(original: o) [500,40,300,70,60,800,02,04,10,00]
+
+(oi) [0,1,2,3,4,5,6,7,8,9,10]
+
+
+-------------------sort-----------
+(copy: c) [00,02,04,10,40,70,70,300,500,800] #cannot change the sorting algorithm at all
+(ci) [10,...,5]
+----------------------------------
+
+single insertion here: O(nlogn+n^2/2)
+dataset has x = 500,000 elements
+
+k-NN = O(k(nlogn+n^2/2))
